@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    color: white;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;    
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    top: 30px;
+}
+h2{
+    font-family: "montserrat";
+    color: black;
+}
+h3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 5;
+    text-align: left;
+    padding: 15%;
+    padding-left: 0px;
+    position: relative;
+    top: 30px;
+    line-height: 1.5;
+}
+i{
+    color: rgb(108, 106, 106);
+}
+.ilas{
+    color: hsla(0, 0%, 100%, 0.75);
+    position: relative;
+    right: 25px;
+}
+.container-fluid{
+    width: 100%;
+    padding: 7% 15%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+#boxes{
+    border-radius: 25px;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+    height: 600px;
+    padding: 10%;
+    text-align: left;
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+    height: 600px;
+    padding: 10%;
+    text-align: left;
+}
+.three{
+    background-color: hsl(179, 100%, 13%);
+    height: 600px;
+    padding: 10%;
+    text-align: left;
+}
+.btn{
+    position: relative;
+    top: 50px;
+    padding-left:15% ;
+    padding-right: 15%;
+    border-radius: 50px;
+    color: hsl(31, 77%, 52%);
+}
+.btn-2{
+    position: relative;
+    top: 50px;
+    padding-left:15% ;
+    padding-right: 15%;
+    border-radius: 50px;
+    color: hsl(184, 100%, 22%);
+}
+.btn-3{
+    position: relative;
+    top: 50px;
+    padding-left:15% ;
+    padding-right: 15%;
+    border-radius: 50px;
+    color: hsl(179, 100%, 13%);
+}
+
+@media (min-width : 375px)
+{
+    .container-fluid{
+        padding: 3% 7%;
+    }
+    h1{
+        font-size: 3rem;
+        position: relative;
+        top: 30px;
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: lighter;
+        text-align: left;
+        padding: 15%;
+        padding-left: 0px;
+        position: static;
+    }
+    .one{
+        position: static;
+    }
+    .btn{
+        position: static;
+    }
+    .btn-2{
+        position: static;
+    }
+}
+
+
+
